@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <style>
+        /* Basic styles */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            background: #005f73;
+            color: white;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            transition: background 0.3s;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            padding: 15px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            color: #e0fbfc;
+            background-color: #3a86ff;
+        }
+
+        /* Section styles */
+        section {
+            padding: 100px 20px;
+            margin-top: 60px;
+        }
+
+        #home {
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        #about, #services, #contact {
+            background: #e2e2e2;
+            text-align: center;
+        }
+
+        section h1, section h2 {
+            margin-bottom: 30px;
+            color: #005f73;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Scroll effects */
+        #navbar {
+            background-color: #005f73;
+        }
+
+        /* Additional styles */
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #005f73;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0a9396;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Welcome to The Biryani Paradise
+
+Nestled in the heart of Hyderabad, The Biryani Paradise combines tradition and innovation in a unique dining experience. Our menu features the finest biryanis, crafted with passion and the freshest ingredients.
+
+Our Ambiance
+Enjoy rustic charm and modern elegance in our cozy interiors, perfect for any occasion.
+
+Our Menu
+Savor a variety of biryanis, from classic chicken and mutton to vegetarian and vegan options. Complement your meal with our selected beverages and delicious desserts.
+
+Our Philosophy
+We support sustainability and responsible sourcing, working with local farmers and practicing a zero-waste approach.
+
+Join Us
+Come to Foody Baba for unforgettable biryani and cherished memories. Reservations are recommended for the best experience.
+
+The Biryani Paradise – Where Every Bite Tells a Story.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p> **About The Biryani Paradise – Our Story, Our Passion**
+
+Welcome to The Biryani Paradise, the ultimate biryani destination where passion meets tradition and innovation. Our founders envisioned a haven for biryani lovers, and today, The Biryani Paradise is renowned for its diverse menu, impeccable service, and quality.
+
+Our Philosophy
+Great food starts with great ingredients. We source the freshest local produce and practice sustainability, ensuring our dishes are both delicious and environmentally friendly.
+
+Our Team
+Our team is a family of passionate chefs and friendly staff dedicated to providing exceptional hospitality and culinary excellence.
+
+Our Menu
+Our menu offers a rich variety of biryanis—from classic chicken and mutton to vegetarian and vegan options—alongside delectable desserts and curated beverages.
+
+Sustainability
+We minimize our environmental impact through responsible sourcing, waste reduction, and eco-friendly practices, supporting local communities and initiatives.
+
+Community Engagement
+We actively engage with our community through partnerships, charity events, and local outreach, striving to make a positive impact.
+
+Join Us
+Experience the magic of The Biryani Paradise and enjoy unforgettable biryani. Whether you're a first-time visitor or a regular, we promise a memorable dining experience.
+
+The Biryani Paradise – Where Every Bite Tells a Story
+</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Services at The Biryani Paradise – Beyond Exceptional Dining
+
+At The Biryani Paradise, we offer a variety of services to enhance your culinary experience:
+
+Dine-In Experience
+Enjoy our cozy and elegant restaurant, perfect for any occasion. Our attentive staff provides personalized service and expert recommendations.
+
+Takeout and Delivery
+Order our full menu for takeout or delivery and savor The Biryani Paradise's flavors at home or the office.
+
+Catering Services
+Make your events memorable with our catering services. We offer customized menus for corporate lunches, weddings, and private parties.
+
+Private Dining
+Host exclusive events in our private dining rooms with tailored menus and dedicated service.
+
+Special Events and Promotions
+Join us for themed dinners, holiday celebrations, wine tastings, and cooking classes. Follow us on social media and sign up for our newsletter for updates.
+
+Gift Cards
+Gift the The Biryani Paradise experience with our gift cards, available in various denominations.
+
+Sustainability Initiatives
+We prioritize local sourcing, waste reduction, and eco-friendly practices. Learn more about our efforts and community outreach on our Sustainability page.
+
+Customer Feedback
+We value your input. Share your thoughts on our website, social media, or contact us directly.
+
+The Biryani Paradise – Your Destination for Culinary Excellence.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Visit Us
+The Biryani Paradise
+Hyderabad
+Sindh Pakistan
+
+
+Call Us
+Phone: 123456789
+Email Us
+Waqar@gmail.com
+
+Opening Hours
+Monday – Thursday: 11:00 AM – 10:00 PM
+Friday – Saturday: 11:00 AM – 11:00 PM
+Sunday: 12:00 PM – 9:00 PM</p>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const navbar = document.getElementById('navbar');
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.style.backgroundColor = '#0a9396';
+                } else {
+                    navbar.style.backgroundColor = '#005f73';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
